@@ -1,8 +1,8 @@
 
 Logback, outside of war, external using logback, logback outside war.
 
-This is extends of ServletContextListener. 
-Using this listener allows you to use in web application Logback config file in any place of filesystem. You should not place now logback.xml either only inside of web app or classpath. 
+It extends of ServletContextListener. 
+Using this listener allows you to use in web application Logback config file in any place of filesystem. You should not place now logback.xml either only inside of a web app or classpath. 
 
 The main goal of this library is changing the logging on the fly without restarting and changing any files in web applicat
 
